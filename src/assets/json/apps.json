@@ -1,0 +1,175 @@
+[
+  {
+    "id": 1,
+    "title": "大一（19/09-20/09）",
+    "list": [
+      {
+        "id": "1-1",
+        "title": "计费管理系统",
+        "name": "whut-bms",
+        "comment": "计费管理系统是一个 C 语言的控制台应用程序，核心功能是实现对数据的基本维护和统计分析。",
+        "link": "/attachments/whut-bms.tar"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "大二（20/09-21/09）",
+    "list": [
+      {
+        "id": "2-1",
+        "title": "数据挖掘系统",
+        "name": "whut-dms",
+        "comment": "数据挖掘系统是一款 C/S 应用，实现日志与物流数据信息的采集、匹配、保存和显示等功能。",
+        "link": "/attachments/whut-dms.tar"
+      },
+      {
+        "id": "2-2",
+        "title": "欢乐连连看",
+        "name": "whut-matching-game",
+        "comment": "连连看游戏是一款基于 MFC 框架开发的在给定的图案中进行相同图案配对连线消除的简单游戏。",
+        "link": "/attachments/whut-matching-game.tar"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "大三（21/09-22/09）",
+    "list": [
+      {
+        "id": "3-1",
+        "title": "电子图书资源服务系统",
+        "name": "whut-ebrss",
+        "comment": "电子图书资源服务系统是一款 C-S 应用，可从系统提供的图书资源中直接检索资源并进行下载。",
+        "link": "/attachments/whut-ebrss.tar"
+      },
+      {
+        "id": "3-2",
+        "title": "网上书屋",
+        "name": "book-house-web",
+        "comment": "网上书屋的主要功能是收集各类 PDF 图书供用户下载，让用户轻松获取所需的图书资源。"
+      },
+      {
+        "id": "3-3",
+        "title": "熊猫书屋",
+        "name": "book-house-ssm",
+        "comment": "熊猫书屋系统用于收集各类 PDF 图书供用户下载，可作为网络电子图书资源的一站式解决方案。"
+      },
+      {
+        "id": "3-4",
+        "title": "两码一查",
+        "name": "images-gather",
+        "comment": "两码一查系统适用于高校内学生的健康码、行程码和密接查图片的收集以及信息整合和管理。"
+      },
+      {
+        "id": "3-5",
+        "title": "美年健康（移动）",
+        "name": "chinasofti-health-mobile",
+        "comment": "美年健康系统应用于健康管理机构的分布式业务，实现健康管理机构工作内容可视化。"
+      },
+      {
+        "id": "3-6",
+        "title": "美年健康（后台）",
+        "name": "chinasofti-health-backend",
+        "comment": "美年健康系统应用于健康管理机构的分布式业务，实现健康管理机构工作内容可视化。"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "大四（22/09-23/06）",
+    "list": [
+      {
+        "id": "4-1",
+        "title": "硅谷课堂（移动）",
+        "name": "atguigu-course-mobile",
+        "comment": "硅谷课堂系统基于微信公众号 B2C 模式，包含直播、教学与微信消息服务三大模块。"
+      },
+      {
+        "id": "4-2",
+        "title": "硅谷课堂（后台）",
+        "name": "atguigu-course-backend",
+        "comment": "硅谷课堂系统基于微信公众号 B2C 模式，包含直播、教学与微信消息服务三大模块。"
+      },
+      {
+        "id": "4-3",
+        "title": "商品汇（前台）",
+        "name": "atguigu-store-frontend",
+        "comment": "尚品汇在线电商项目，涵盖首页、购物车、订单支付和数据管理等众多子模块。"
+      },
+      {
+        "id": "4-4",
+        "title": "商品汇（后台）",
+        "name": "atguigu-store-backend",
+        "comment": "尚品汇在线电商项目，涵盖首页、购物车、订单支付和数据管理等众多子模块。"
+      },
+      {
+        "id": "4-5",
+        "title": "百家谱（移动）",
+        "name": "ifamily-mobile",
+        "comment": "百家谱系统是一款功能多样、操作简单的综合性数字化家族谱系服务平台，传承家族文化。"
+      },
+      {
+        "id": "4-6",
+        "title": "百家谱（后台）",
+        "name": "ifamily-backend",
+        "comment": "百家谱系统是一款功能多样、操作简单的综合性数字化家族谱系服务平台，传承家族文化。"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "移卡（23/06-至今）",
+    "list": [
+      {
+        "id": "5-1",
+        "title": "数据库平台",
+        "name": "dbmanage-web",
+        "comment": "数据库平台提供 DBA 日常运维 80% 操作，包括 ESC 资源和 DB 实例创建和权限管理等功能。"
+      },
+      {
+        "id": "5-2",
+        "title": "商品汇（静态）",
+        "name": "atguigu-store-static",
+        "comment": "尚品汇在线电商项目，涵盖首页、购物车、订单支付和数据管理等众多子模块。"
+      },
+      {
+        "id": "5-3",
+        "title": "任务引擎",
+        "name": "ops-task-web",
+        "comment": "自动化任务引擎基于 Ansible 实现运维任务自动化执行，支持任务模板、脚本执行等功能。"
+      },
+      {
+        "id": "5-4",
+        "title": "运管平台",
+        "name": "ops-gateway-web",
+        "comment": "运管平台实现企业自建应用与三方开源应用的统一登录和权限管理入口，解决频繁登录痛点。"
+      },
+      {
+        "id": "5-5",
+        "title": "生日快乐",
+        "name": "happy-birthday",
+        "comment": "生日快乐祝福网站为钟意的 Ta 提供生日倒计时，支持背景音乐、雪花飞舞和动态蛋糕图。"
+      },
+      {
+        "id": "5-6",
+        "title": "轮播大屏",
+        "name": "ops-dashboard-carousel",
+        "comment": "轮播大屏支持自定义网站列表和轮播时长，适用于企业组织大屏的轮流定制化轮播。"
+      },
+      {
+        "id": "5-7",
+        "title": "守财奴",
+        "name": "miser",
+        "comment": "守财奴使用 Grafana 图表实现收入、支出和结余的全方位统计，支持多种多样的可视化图表。"
+      },
+      {
+        "id": "5-8",
+        "title": "智汇异常洞察平台",
+        "name": "tdcode-ieip",
+        "comment": "智汇异常洞察平台提供全方位的错误统计报表、实时监控告警和详细错误信息查询等服务。",
+        "disable": true
+      }
+    ]
+  }
+]

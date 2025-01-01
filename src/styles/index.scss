@@ -1,0 +1,33 @@
+@use "@/styles/variables";
+
+body {
+  margin: 0;
+  background-color: variables.$bg-color;
+}
+
+.container {
+  width: 1080px;
+  margin: 0 auto;
+  height: calc(100vh - 60px);
+}
+
+.large-radius {
+  border-radius: 4px;
+}
+
+.text-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.card-badge:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  width: 32px;
+  height: 32px;
+  background-image: linear-gradient(#ffffff, variables.$theme-color);
+  transform: translate(50%, -50%) rotate(45deg);
+}
