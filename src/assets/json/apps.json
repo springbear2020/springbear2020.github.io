@@ -8,7 +8,7 @@
         "title": "计费管理系统",
         "name": "whut-bms",
         "comment": "计费管理系统是一个 C 语言的控制台应用程序，核心功能是实现对数据的基本维护和统计分析。",
-        "link": "/attachments/whut-bms.tar"
+        "link": "http://localhost:8888/attachments/whut-bms.tar"
       }
     ]
   },
@@ -21,14 +21,14 @@
         "title": "数据挖掘系统",
         "name": "whut-dms",
         "comment": "数据挖掘系统是一款 C/S 应用，实现日志与物流数据信息的采集、匹配、保存和显示等功能。",
-        "link": "/attachments/whut-dms.tar"
+        "link": "http://localhost:8888/attachments/whut-dms.tar"
       },
       {
         "id": "2-2",
         "title": "欢乐连连看",
         "name": "whut-matching-game",
         "comment": "连连看游戏是一款基于 MFC 框架开发的在给定的图案中进行相同图案配对连线消除的简单游戏。",
-        "link": "/attachments/whut-matching-game.tar"
+        "link": "http://localhost:8888/attachments/whut-matching-game.tar"
       }
     ]
   },
@@ -41,7 +41,7 @@
         "title": "电子图书资源服务系统",
         "name": "whut-ebrss",
         "comment": "电子图书资源服务系统是一款 C-S 应用，可从系统提供的图书资源中直接检索资源并进行下载。",
-        "link": "/attachments/whut-ebrss.tar"
+        "link": "http://localhost:8888/attachments/whut-ebrss.tar"
       },
       {
         "id": "3-2",
@@ -166,9 +166,8 @@
       {
         "id": "5-8",
         "title": "智汇异常洞察平台",
-        "name": "tdcode-ieip",
-        "comment": "智汇异常洞察平台提供全方位的错误统计报表、实时监控告警和详细错误信息查询等服务。",
-        "disable": true
+        "name": "td2-ieip-web",
+        "comment": "智汇异常洞察平台提供全方位的错误统计报表、实时监控告警和详细错误信息查询等服务。"
       }
     ]
   }

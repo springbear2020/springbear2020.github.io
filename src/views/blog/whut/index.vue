@@ -1,7 +1,7 @@
 <script setup>
 import AlertTip from "@/components/AlertTip.vue";
 import dataList from "/src/assets/json/blog-whut.json";
-import { processTableRowMerge } from "@/views/utils/element-plus.js";
+import { processTableRowMerge } from "@/utils/element-plus.js";
 import { ref } from "vue";
 
 const dataArray = JSON.parse(JSON.stringify(dataList)).reverse()

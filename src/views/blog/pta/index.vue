@@ -1,7 +1,7 @@
 <script setup>
 import AlertTip from "@/components/AlertTip.vue";
 import dataList from "/src/assets/json/blog-pta.json";
-import { processTableRowMerge } from "@/views/utils/element-plus.js";
+import { processTableRowMerge } from "@/utils/element-plus.js";
 
 const alertTipList = [
   `PTA | 程序设计类实验辅助教学平台【${dataList.length}】：基础编程题目集、C 语言程序设计(第3版)、C 语言程序设计实验与习题指导(第3版)`,

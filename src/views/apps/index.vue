@@ -2,8 +2,7 @@
 import dataList from "@/assets/json/apps.json";
 import CategoryList from "@/components/CategoryList.vue";
 import AlertTip from "@/components/AlertTip.vue";
-
-const BASE_PATH = import.meta.env.VITE_BASE_PATH;
+import { appsBaseUrl } from "@/config.js";
 
 const dataArray = JSON.parse(JSON.stringify(dataList))
   .reverse()
@@ -11,7 +10,7 @@ const dataArray = JSON.parse(JSON.stringify(dataList))
     category.list.forEach((item) => {
       const { name, link, comment } = item;
       item.icon = `${window.location.origin}/resources/images/apps/${name}.png`;
-      item.link = BASE_PATH + (link || `/${name}/`);
+      item.link = link || appsBaseUrl +  `/${name}/`;
       item.line = comment;
     });
     return {

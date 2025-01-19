@@ -1,4 +1,4 @@
-import { successMessage, errorMessage } from "@/views/utils/message.js";
+import { successMessage, errorMessage } from "@/utils/message.js";
 
 export function copyToClipboard(text, message = "复制成功！") {
   navigator.clipboard

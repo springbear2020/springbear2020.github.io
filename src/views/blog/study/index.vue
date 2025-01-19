@@ -3,7 +3,7 @@ import dataList from "@/assets/json/blog-study.json";
 import cppPrimerList from "@/assets/json/blog-cpp-primer.json";
 import BlogCardItem from "@/components/BlogCardItem.vue";
 import AlertTip from "@/components/AlertTip.vue";
-import { processTableRowMerge } from "@/views/utils/element-plus.js";
+import { processTableRowMerge } from "@/utils/element-plus.js";
 
 const alertTipList = [
   `学习笔记【${dataList.length + cppPrimerList.length}】：路漫漫其修远兮，吾将上下而求索`,
