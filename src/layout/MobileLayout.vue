@@ -6,6 +6,7 @@ import MobileBody from "@/layout/components/MobileBody.vue";
 <template>
   <mobile-header />
   <mobile-body />
+  <van-back-top />
 </template>
 
 <style scoped lang="scss"></style>
