@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <h1>mobile home</h1>
+  <h1>GitHub</h1>
 </template>
 
 <style scoped lang="scss"></style>

@@ -9,7 +9,11 @@ import blogWhutList from "@/assets/json/blog-whut.json";
 import repoList from "@/assets/json/repo.json";
 import appList from "@/assets/json/apps.json";
 import pdfWhutList from "@/assets/json/pdf-whut.json";
-import routeList from "@/router/modules/index.js";
+import desktopRouteList from "@/router/modules/index.js";
+import mobileRouteList from "@/router/modules/mobile.js";
+import { isMobile } from "@/config.js";
+
+const routeList = isMobile ? mobileRouteList : desktopRouteList;
 
 export const useSearchStore = defineStore("searchStore", () => {
   const dataSource = ref([]);
