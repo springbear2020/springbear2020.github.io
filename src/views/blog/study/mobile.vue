@@ -17,7 +17,7 @@ const dataArray = JSON.parse(JSON.stringify(dataList)).reverse();
         :url="link"
       >
         <template #title>
-          <van-image :src="`/resources/images/articles/${cover}`" />
+          <van-image :src="`/resources/images/articles/${cover}`" height="100px" />
         </template>
         <template #value>
           <van-text-ellipsis :content="title" />
