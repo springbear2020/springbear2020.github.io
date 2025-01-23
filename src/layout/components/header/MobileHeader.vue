@@ -95,7 +95,7 @@ const handleCellClick = (path) => {
 </script>
 
 <template>
-  <van-nav-bar @click-left="handleLogoClick" @click-right="handleRightClick">
+  <van-nav-bar @click-left="handleLogoClick" @click-right="handleRightClick" fixed placeholder>
     <template #left>
       <van-icon name="/logo.png" size="22" class="logo" />
     </template>
