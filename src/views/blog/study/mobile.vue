@@ -13,8 +13,9 @@ const dataArray = JSON.parse(JSON.stringify(dataList)).reverse();
       <van-cell
         is-link
         center
-        v-for="{ title, link, cover, postTime } in dataArray"
+        v-for="{ title, link, cover, postTime, flag } in dataArray"
         :url="link"
+        :class="flag ? 'card-badge' : ''"
       >
         <template #title>
           <van-image :src="`/resources/images/articles/${cover}`" height="100px" />
