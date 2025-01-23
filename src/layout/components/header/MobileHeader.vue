@@ -1,6 +1,6 @@
 <script setup>
-import { useRouter } from "vue-router";
-import { computed, ref } from "vue";
+import { useRoute, useRouter } from "vue-router";
+import { computed, ref, watchEffect } from "vue";
 import { githubBaseUrl, csdnBaseUrl, appsBaseUrl } from "@/config.js";
 import { useSearchStore } from "@/pinia/index.js";
 import { sourceType } from "@/constants/index.js";
@@ -8,10 +8,12 @@ import { copyToClipboard } from "@/utils/clipboard.js";
 import { showSuccessToast } from "vant";
 import routes from "@/router/modules/mobile.js";
 
+const route = useRoute();
 const router = useRouter();
 const searchStore = useSearchStore();
 
 // 导航栏
+const navTitle = ref("主页");
 const handleLogoClick = () => {
   router.push("/");
   popupShow.value = false;
@@ -92,10 +94,20 @@ const handleCellClick = (path) => {
   router.push(path);
   popupShow.value = false;
 };
+
+watchEffect(() => {
+  navTitle.value = pathTitleMap.get(route.path) || "主页";
+});
 </script>
 
 <template>
-  <van-nav-bar @click-left="handleLogoClick" @click-right="handleRightClick" fixed placeholder>
+  <van-nav-bar
+    @click-left="handleLogoClick"
+    @click-right="handleRightClick"
+    fixed
+    placeholder
+    :title="navTitle"
+  >
     <template #left>
       <van-icon name="/logo.png" size="22" class="logo" />
     </template>
