@@ -33,7 +33,7 @@ const dataArray = JSON.parse(JSON.stringify(dataList))
         <van-icon :name="icon" :size="64" />
       </template>
       <template #title>
-        <van-text-ellipsis :content="title" class="title" />
+        <van-text-ellipsis :content="title" />
       </template>
       <template #value>
         <van-text-ellipsis :content="name" />

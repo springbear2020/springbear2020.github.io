@@ -29,6 +29,6 @@ const groupedData = dataList.reduce((acc, item) => {
 
 <style scoped lang="scss">
 .category {
-  padding: 10px 16px;
+  padding: 16px;
 }
 </style>
