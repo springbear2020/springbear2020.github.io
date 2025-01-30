@@ -3,7 +3,7 @@ import { computed, onMounted, ref } from "vue";
 import { useRouter } from "vue-router";
 import { useSearchStore } from "@/pinia/index.js";
 import { appsBaseUrl, githubBaseUrl } from "@/config.js";
-import { copyToClipboard } from "@/views/utils/clipboard.js";
+import { copyToClipboard } from "@/utils/clipboard.js";
 import { sourceType } from "@/constants/index.js";
 
 const router = useRouter();

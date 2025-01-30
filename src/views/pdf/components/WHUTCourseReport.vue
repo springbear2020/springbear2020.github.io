@@ -1,8 +1,8 @@
 <script setup>
 import AlertTip from "@/components/AlertTip.vue";
 import dataList from "/src/assets/json/pdf-whut.json";
-import { copyToClipboard } from "@/views/utils/clipboard.js";
-import { processTableRowMerge } from "@/views/utils/element-plus.js";
+import { copyToClipboard } from "@/utils/clipboard.js";
+import { processTableRowMerge } from "@/utils/element-plus.js";
 
 const dataArray = JSON.parse(JSON.stringify(dataList)).reverse()
 const alertTipList = [

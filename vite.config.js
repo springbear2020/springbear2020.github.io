@@ -11,15 +11,6 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  server: {
-    proxy: {
-      "/gateway-api": {
-        changeOrigin: true,
-        target: "http://localhost:8888",
-        rewrite: (path) => path.replace("/gateway-api", ""),
-      },
-    },
-  },
   plugins: [vue()],
   css: {
     preprocessorOptions: {

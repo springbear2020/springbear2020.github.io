@@ -10,7 +10,7 @@ const dataArray = JSON.parse(JSON.stringify(dataList))
     category.list.forEach((item) => {
       const { title, link, dateRange, stack } = item;
       item.icon = `${window.location.origin}/resources/images/repo/${title}.png`;
-      item.link = githubBaseUrl + (link || `/${title}/`);
+      item.link =  link || githubBaseUrl + `/${title}/`;
       item.firstLine = `开发时间：${dateRange}`;
       item.secondLine = `核心技术：${stack}`;
     });

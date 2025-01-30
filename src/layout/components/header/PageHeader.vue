@@ -55,5 +55,9 @@ onMounted(() => {
   justify-content: space-between;
   background-color: #ffffff;
   padding: 0 16px;
+
+  .large-radius {
+    border-radius: 4px;
+  }
 }
 </style>
