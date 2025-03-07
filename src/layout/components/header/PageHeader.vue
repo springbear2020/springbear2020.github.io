@@ -21,7 +21,7 @@ const pathTitleMap = extractPathTitleMap(routes);
 const route = useRoute();
 const availableRoutes = routes.filter((r) => !r.meta.hidden);
 const handleSelect = (path) => {
-  document.title = pathTitleMap.get(path) + " | Spring-_-Bear";
+  document.title = pathTitleMap.get(path) + " | 春天熊";
 };
 
 onMounted(() => {

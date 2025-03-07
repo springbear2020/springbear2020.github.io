@@ -11,7 +11,7 @@ defineProps({
 
 <template>
   <div class="category-box" v-for="category in list">
-    <h2>{{ category.title }}</h2>
+    <h3>{{ category.title }}</h3>
     <div class="card-list-box">
       <card-item v-for="item in category.list" :cardData="item" />
     </div>
@@ -21,8 +21,6 @@ defineProps({
 <style scoped lang="scss">
 .category-box {
   border-radius: 4px;
-  background: #ffffff;
-  margin-bottom: 16px;
 
   h2 {
     font-size: 32px;
