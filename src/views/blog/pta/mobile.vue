@@ -1,6 +1,8 @@
 <script setup>
 import dataList from "/src/assets/json/blog-pta.json";
+import { ref } from "vue";
 
+const activeTab = ref(0);
 const groupedData = dataList.reduce((acc, item) => {
   if (!acc[item.category]) {
     acc[item.category] = [];
@@ -11,24 +13,19 @@ const groupedData = dataList.reduce((acc, item) => {
 </script>
 
 <template>
-  <div v-for="category in Object.keys(groupedData)">
-    <div class="category">{{category}}</div>
-    <van-cell
+  <van-tabs v-model="activeTab" animated swipeable :ellipsis="false">
+    <van-tab v-for="category in Object.keys(groupedData)" :title="category">
+      <van-cell
         is-link
         center
         v-for="{ title, postTime, link } in groupedData[category]"
         :url="link"
         :value="postTime"
-    >
-      <template #title>
-        <van-text-ellipsis :content="title" />
-      </template>
-    </van-cell>
-  </div>
+      >
+        <template #title>
+          <van-text-ellipsis :content="title" />
+        </template>
+      </van-cell>
+    </van-tab>
+  </van-tabs>
 </template>
-
-<style scoped lang="scss">
-.category {
-  padding: 16px;
-}
-</style>
