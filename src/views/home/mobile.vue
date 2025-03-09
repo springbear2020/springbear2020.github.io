@@ -1,60 +1,38 @@
 <script setup>
-import studyList from "@/assets/json/blog-study.json";
-import codingList from "@/assets/json/blog-coding.json";
-import whutList from "/src/assets/json/blog-whut.json";
-import { shuffleArray } from "@/utils/array.js";
+import { ref, onMounted } from "vue";
+import TypeIt from "typeit";
+import { greetingWords } from "@/config.js";
 
-const dataList = shuffleArray([...studyList, ...codingList, ...whutList]);
-const handleClick = (link) => {
-  window.open(link, "_blank");
-};
+const elementRef = ref();
+
+onMounted(() => {
+  new TypeIt(elementRef.value, {
+    strings: greetingWords,
+    speed: 100,
+    loop: true,
+  }).go();
+});
 </script>
 
 <template>
-  <van-swipe lazy-render :autoplay="3000">
-    <van-swipe-item
-      v-for="{ title, link, cover } in dataList"
-      @click="handleClick(link)"
-    >
-      <div class="image-container">
-        <van-image
-          :src="`/resources/images/articles/${cover}`"
-          height="256px"
-        />
-        <div class="image-title">{{ title }}</div>
-      </div>
-    </van-swipe-item>
-    <template #indicator="{ active, total }">
-      <div class="custom-indicator">{{ active + 1 }}/{{ total }}</div>
-    </template>
-  </van-swipe>
+  <div class="home-container">
+    <div ref="elementRef"></div>
+  </div>
 </template>
 
 <style scoped lang="scss">
-@use "@/styles/variables.scss";
+@use "@/styles/variables";
 
-.image-container {
-  position: relative;
-}
+.home-container {
+  height: calc(100vh - 46px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: variables.$theme-color;
+  padding: 0 16px;
 
-.image-title {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
-  padding: 8px;
-  text-align: center;
-  font-size: 14px;
-}
-
-.custom-indicator {
-  position: absolute;
-  right: 5px;
-  bottom: 5px;
-  padding: 2px 5px;
-  font-size: 12px;
-  background: rgba(0, 0, 0, 0.1);
+  div {
+    line-height: 2;
+  }
 }
 </style>
