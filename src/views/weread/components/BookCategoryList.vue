@@ -1,5 +1,5 @@
 <script setup>
-import CardItem from "@/components/CardItem.vue";
+import BookCardItem from "@/views/weread/components/BookCardItem.vue";
 
 defineProps({
   list: {
@@ -13,7 +13,7 @@ defineProps({
   <div class="category-box" v-for="category in list">
     <h3>{{ category.title }}</h3>
     <div class="card-list-box">
-      <card-item v-for="item in category.list" :cardData="item" />
+      <book-card-item v-for="item in category.list" :cardData="item" />
     </div>
   </div>
 </template>
@@ -21,12 +21,6 @@ defineProps({
 <style scoped lang="scss">
 .category-box {
   border-radius: 4px;
-
-  h2 {
-    font-size: 32px;
-    margin: 0;
-    padding: 16px;
-  }
 
   .card-list-box {
     display: flex;

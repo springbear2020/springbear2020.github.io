@@ -6,6 +6,7 @@ import blogCppPrimerList from "@/assets/json/blog-cpp-primer.json";
 import blogPtaList from "@/assets/json/blog-pta.json";
 import blogStudyList from "@/assets/json/blog-study.json";
 import blogWhutList from "@/assets/json/blog-whut.json";
+import blogInterviewList from "@/assets/json/blog-interview.json";
 import repoList from "@/assets/json/repo.json";
 import appList from "@/assets/json/apps.json";
 import pdfWhutList from "@/assets/json/pdf-whut.json";
@@ -29,6 +30,7 @@ export const useSearchStore = defineStore("searchStore", () => {
       ...blogPtaList,
       ...blogStudyList,
       ...blogWhutList,
+      ...blogInterviewList,
     ],
     ({ title, link }) => ({ title, link, type: sourceType.blog }),
   );

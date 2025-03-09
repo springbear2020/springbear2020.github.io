@@ -21,12 +21,13 @@ defineProps({
 .alert-tip {
   background-color: #ffffff;
   border-radius: 4px;
-  padding: 16px 0;
   border: 1px solid variables.$theme-color;
+  margin: 16px 0;
 
   .alert-item {
     color: variables.$theme-color;
     line-height: 24px;
+    padding: 16px;
   }
 }
 </style>
