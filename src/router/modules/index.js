@@ -24,6 +24,12 @@ const routes = [
         meta: { title: "程序人生" },
       },
       {
+        path: "/blog/interview",
+        name: "Interview",
+        component: () => import("@/views/blog/interview/index.vue"),
+        meta: { title: "面试宝典" },
+      },
+      {
         path: "/blog/whut",
         name: "WHUT",
         component: () => import("@/views/blog/whut/index.vue"),
@@ -54,6 +60,12 @@ const routes = [
     name: "PDF",
     component: () => import("@/views/pdf/index.vue"),
     meta: { title: "PDF 资源" },
+  },
+  {
+    path: "/weread",
+    name: "WeRead",
+    component: () => import("@/views/weread/index.vue"),
+    meta: { title: "微信读书" },
   },
   {
     path: "/:catchAll(.*)",
