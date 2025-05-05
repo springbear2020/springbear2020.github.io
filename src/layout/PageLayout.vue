@@ -1,6 +1,9 @@
 <script setup>
-import PageHeader from "@/layout/components/header/PageHeader.vue";
-import PageBody from "@/layout/components/PageBody.vue";
+import PageHeader from "@/layout/PageHeader.vue";
+import PageBody from "@/layout/PageBody.vue";
+import { useDataStore } from "@/pinia/index.js";
+
+useDataStore();
 </script>
 
 <template>

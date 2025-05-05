@@ -1,6 +1,6 @@
 import { createPinia } from "pinia";
-import { useSearchStore } from "@/pinia/modules/search.js";
+import { useDataStore } from "@/pinia/modules/store.js";
 
 const store = createPinia();
 
-export { store, useSearchStore };
+export { store, useDataStore };

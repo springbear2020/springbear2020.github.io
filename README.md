@@ -7,27 +7,32 @@
         <img src="https://img.shields.io/static/v1?label=%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE&message=springbear2020.github.io&color=18a745"/>
     </a>
 </p>
+# Spring-_-Bear's Website
 
-## 1. Home
+## 1. Home Page
 
-![](docs/img/1-home.png)
+![](docs/images/1_home-page.png)
 
 ## 2. CSDN Blogs
 
-![](docs/img/2-csdn-blog.png)
+![](docs/images/2_csdn-blogs.png)
 
 ## 3. GitHub Repositories
 
-![](docs/img/3-github-repo.png)
+![](docs/images/3_github-repositories.png)
 
 ## 4. WSL Applications
 
-![](docs/img/4-wsl-app.png)
+![](docs/images/4_wsl-applications.png)
 
 ## 5. PDF Resources
 
-![](docs/img/5-pdf-resources.png)
+![](docs/images/5_pdf-resources.png)
 
-## 6. Search Anything
+## 6. WeRead Books
 
-![](docs/img/6-search.png)
+![](docs/images/6_weread-books.png)
+
+## 7. Search Anything
+
+![](docs/images/7_search-anything.png)
