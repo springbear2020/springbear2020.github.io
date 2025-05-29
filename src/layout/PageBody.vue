@@ -6,9 +6,7 @@ const route = useRoute();
 
 <template>
   <div class="container">
-    <el-scrollbar>
-      <router-view :key="route.path" />
-    </el-scrollbar>
+    <router-view :key="route.path" />
   </div>
 </template>
 

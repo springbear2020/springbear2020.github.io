@@ -1,4 +1,5 @@
 <script setup>
+import SentenceList from "@/components/SentenceList.vue";
 import BlogCardList from "@/components/BlogCardList.vue";
 import ElementTable from "@/components/ElementTable.vue";
 import CourseTable from "@/components/CourseTable.vue";
@@ -8,7 +9,12 @@ import { useDataStore } from "@/pinia/modules/store.js";
 
 const route = useRoute();
 const dataStore = useDataStore();
-const subComponentMap = { BlogCardList, ElementTable, CourseTable };
+const subComponentMap = {
+  SentenceList,
+  BlogCardList,
+  ElementTable,
+  CourseTable,
+};
 
 const { title, tabs } = route.meta;
 const tipsLine = ref("");

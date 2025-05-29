@@ -147,6 +147,37 @@ const routes = [
     },
   },
   {
+    path: "/sentence",
+    name: "Sentence",
+    component: () => import("@/views/tabs/index.vue"),
+    meta: {
+      title: "三五七言",
+      slogan: "以我观我，故物皆著我之色彩",
+      tabs: [
+        {
+          label: "古诗",
+          subComponent: "SentenceList",
+          ignoreRouteTitle: true,
+        },
+        {
+          label: "曲词",
+          subComponent: "SentenceList",
+          ignoreRouteTitle: true,
+        },
+        {
+          label: "文言",
+          subComponent: "SentenceList",
+          ignoreRouteTitle: true,
+        },
+        {
+          label: "白话",
+          subComponent: "SentenceList",
+          ignoreRouteTitle: true,
+        },
+      ],
+    },
+  },
+  {
     path: "/:catchAll(.*)",
     name: "Error",
     component: () => import("@/views/error/index.vue"),

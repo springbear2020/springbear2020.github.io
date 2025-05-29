@@ -10,6 +10,7 @@ export const useDataStore = defineStore("dataStore", () => {
       "/resources/csv/blog.csv",
       "/resources/csv/pdf.csv",
       "/resources/csv/category.csv",
+      "/resources/csv/sentence.csv",
     ];
     urls.forEach(async (url) => {
       try {

@@ -1,4 +1,8 @@
 topRoute,category,title,link,cover,postTime,flag
+CSDN 博客,学习笔记:Go 语言圣经,第 7 章 接口,https://springbear.blog.csdn.net/article/details/148160551,/resources/images/articles/148160551.png,2025-05-23 11:32:18,
+CSDN 博客,学习笔记:Go 语言圣经,第 6 章 方法,https://springbear.blog.csdn.net/article/details/148069481,/resources/images/articles/148069481.png,2025-05-19 17:46:05,
+CSDN 博客,学习笔记:Go 语言圣经,第 5 章 函数,https://springbear.blog.csdn.net/article/details/148012549,/resources/images/articles/148012549.png,2025-05-16 17:32:22,
+CSDN 博客,学习笔记:Go 语言圣经,第 4 章 复合数据类型,https://springbear.blog.csdn.net/article/details/147730079,/resources/images/articles/147730079.png,2025-05-06 11:05:32,
 CSDN 博客,学习笔记:Go 语言圣经,第 3 章 基础数据类型,https://springbear.blog.csdn.net/article/details/147469080,/resources/images/articles/147469080.png,2025-04-24 09:20:15,
 CSDN 博客,学习笔记:Go 语言圣经,第 2 章 程序结构,https://springbear.blog.csdn.net/article/details/146946288,/resources/images/articles/146946288.png,2025-04-02 14:31:38,
 CSDN 博客,学习笔记:Go 语言圣经,第 1 章 入门,https://springbear.blog.csdn.net/article/details/146445717,/resources/images/articles/146445717.png,2025-03-22 20:20:00,
@@ -43,6 +47,7 @@ CSDN 博客,学习笔记:Java,Java Web,https://springbear.blog.csdn.net/article/
 CSDN 博客,学习笔记:Java,正则表达式,https://springbear.blog.csdn.net/article/details/125059310,/resources/images/articles/125059310.png,2022-05-31 10:01:30,true
 CSDN 博客,学习笔记:Java,Java,https://springbear.blog.csdn.net/article/details/123904890,/resources/images/articles/123904890.png,2022-05-31 09:13:50,true
 CSDN 博客,学习笔记:Java,Maven,https://springbear.blog.csdn.net/article/details/124065466,/resources/images/articles/124065466.png,2022-04-10 09:38:23,
+CSDN 博客,程序人生,加密算法详尽指南,https://springbear.blog.csdn.net/article/details/147991097,/resources/images/articles/147991097.jpeg,2025-05-15 20:17:16,
 CSDN 博客,程序人生,智汇异常洞察平台设计及实现概述,https://springbear.blog.csdn.net/article/details/145298987,/resources/images/articles/145298987.png,2025-01-22 10:52:18,
 CSDN 博客,程序人生,构建现代化 CMDB 前端平台,https://springbear.blog.csdn.net/article/details/143480895,/resources/images/articles/143480895.png,2024-11-04 11:53:33,
 CSDN 博客,程序人生,短信平台设计方案,https://springbear.blog.csdn.net/article/details/143479083,/resources/images/articles/143479083.png,2024-11-04 10:58:34,
