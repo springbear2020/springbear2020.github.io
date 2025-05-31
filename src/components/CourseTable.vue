@@ -70,7 +70,6 @@ const arraySpanMethod = ({ row, rowIndex, columnIndex }) => {
     :data="dataArray"
     border
     :span-method="arraySpanMethod"
-    class="data-table"
   >
     <el-table-column type="index" label="#" align="center" width="50" />
     <el-table-column prop="semester" label="学期" align="center" width="100" />

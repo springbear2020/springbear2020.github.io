@@ -42,10 +42,12 @@ onMounted(() => {
       v-for="{ label, subComponent, ignoreRouteTitle } in tabs"
       :label="label"
     >
-      <component
-        :is="subComponentMap[subComponent]"
-        :list="filterData(label, ignoreRouteTitle)"
-      />
+      <div class="component-box">
+        <component
+            :is="subComponentMap[subComponent]"
+            :list="filterData(label, ignoreRouteTitle)"
+        />
+      </div>
     </el-tab-pane>
   </el-tabs>
 </template>
@@ -55,7 +57,7 @@ onMounted(() => {
 
 :deep(.el-tabs__header) {
   background-color: variables.$bg-white;
-  margin-bottom: 4px;
+  margin-bottom: 16px;
 }
 </style>
 
@@ -64,5 +66,9 @@ onMounted(() => {
 
 .el-tabs--card > .el-tabs__header .el-tabs__item.is-active {
   border-bottom-color: variables.$theme-color;
+}
+
+.component-box {
+  padding-bottom: 16px;
 }
 </style>

@@ -14,7 +14,7 @@ const hasPostTime = computed(() => {
 </script>
 
 <template>
-  <el-table :data="list" border class="data-table">
+  <el-table :data="list" border>
     <el-table-column type="index" label="#" align="center" width="50" />
     <el-table-column prop="title" label="链接">
       <template #default="{ row }">

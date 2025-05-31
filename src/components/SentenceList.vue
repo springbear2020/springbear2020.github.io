@@ -49,6 +49,7 @@ const dataList = computed(() => {
   padding: 0;
   border-radius: 4px;
   border: 1px dashed variables.$theme-color;
+  margin: 0 0 4px;
 
   .sentence-item {
     padding: 16px;
@@ -63,5 +64,9 @@ const dataList = computed(() => {
       padding-top: 8px;
     }
   }
+}
+
+.sentence-box:last-child {
+  margin-bottom: 0;
 }
 </style>

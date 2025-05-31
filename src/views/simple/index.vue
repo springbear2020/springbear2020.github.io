@@ -24,5 +24,17 @@ onMounted(() => {
 
 <template>
   <p class="tips-line">{{ tipsLine }}</p>
-  <component :is="subComponentMap[subComponent]" :list="dataList" />
+  <div class="component-box">
+    <component :is="subComponentMap[subComponent]" :list="dataList" />
+  </div>
 </template>
+
+<style scoped lang="scss">
+.component-box {
+  padding-bottom: 12px;
+
+  .el-table {
+    margin-bottom: 4px;
+  }
+}
+</style>
