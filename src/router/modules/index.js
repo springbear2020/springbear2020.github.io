@@ -20,11 +20,7 @@ const routes = [
           slogan: "路漫漫其修远兮，吾将上下而求索",
           tabs: [
             {
-              label: "Go 语言圣经",
-              subComponent: "ElementTable",
-            },
-            {
-              label: "C++ Primer",
+              label: "Go",
               subComponent: "ElementTable",
             },
             {
@@ -32,15 +28,15 @@ const routes = [
               subComponent: "BlogCardList",
             },
             {
+              label: "C++",
+              subComponent: "ElementTable",
+            },
+            {
               label: "前端",
               subComponent: "BlogCardList",
             },
             {
               label: "计算机基础",
-              subComponent: "BlogCardList",
-            },
-            {
-              label: "面试宝典",
               subComponent: "BlogCardList",
             },
             {
@@ -152,7 +148,7 @@ const routes = [
     component: () => import("@/views/tabs/index.vue"),
     meta: {
       title: "三五七言",
-      slogan: "以我观我，故物皆著我之色彩",
+      slogan: "熊，三尺微命，一介书生",
       tabs: [
         {
           label: "古诗",

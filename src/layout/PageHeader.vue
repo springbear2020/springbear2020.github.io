@@ -25,7 +25,7 @@ const handleSet = (path) => {
 };
 
 // 动态加载头部组件
-const RESIZE_THRESHOLD = 800
+const RESIZE_THRESHOLD = 867
 const innerWidth = ref(window.innerWidth);
 const headerComponent = computed(() => {
   return innerWidth.value < RESIZE_THRESHOLD ? MobileHeader : DesktopHeader;
